@@ -1,0 +1,7 @@
+1.Setting up React app with Build tool
+2.Exploring folder Structure
+3.Working with Funtional Components
+4.Reusing Component
+5.Passing data with Props
+
+ Starting at 2:40 PM

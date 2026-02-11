@@ -147,14 +147,3 @@ These 6 assignments are designed to be solved using **only** what you learned in
 - **Errors:** If nothing shows, open the browser **Developer Console** (F12) and check for script errors or wrong script order (React and React-DOM before your script; Babel before your script when using JSX).
 
 ---
-
-## Suggested Evaluation (Optional)
-
-| Assignment | Criteria (example) |
-|------------|---------------------|
-| 1 | Correct CDN and root; paragraph renders. |
-| 2 | Div has style/className; nested h2 and p render. |
-| 3 | Button renders and alert fires on click. |
-| 4 | Greeting is a function; returns createElement tree; component renders. |
-| 5 | Babel and type="text/babel" used; JSX version of Greeting renders. |
-| 6 | Card and App components; props used; two cards with different content; inline styles applied. |
