@@ -17,13 +17,13 @@ function Navbar() {
 
       {/* Right Side: Navigation Links */}
       <div className="flex space-x-10 items-center">
-        <a href="#" className="text-sm font-semibold text-gray-300 hover:text-blue-400 transition-all duration-300 uppercase tracking-wide">
+        <a href="/" className="text-sm font-semibold text-gray-300 hover:text-blue-400 transition-all duration-300 uppercase tracking-wide">
           Movies
         </a>
-        <a href="#" className="text-sm font-semibold text-gray-300 hover:text-blue-400 transition-all duration-300 uppercase tracking-wide">
+        <a href="/watchlist" className="text-sm font-semibold text-gray-300 hover:text-blue-400 transition-all duration-300 uppercase tracking-wide">
           Watchlist
         </a>
-        <a href="#" className="text-sm font-semibold text-gray-300 hover:text-blue-400 transition-all duration-300 uppercase tracking-wide">
+        <a href="/mood" className="text-sm font-semibold text-gray-300 hover:text-blue-400 transition-all duration-300 uppercase tracking-wide">
           Mood Selector
         </a>
       </div>
