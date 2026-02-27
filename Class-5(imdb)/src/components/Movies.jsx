@@ -1,9 +1,27 @@
 import React from "react";
+import Banner from "./Banner";
+import MovieCard from "./MovieCard";
 
 function Movies() {
   return (
     <div>
-      <h1 className="text-red-500 text-4xl">Movies Page</h1>
+      <Banner />
+      <div
+        className=" mt-10 flex gap-4 flex-wrap justify-evenly 
+      "
+      >
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+      </div>
     </div>
   );
 }

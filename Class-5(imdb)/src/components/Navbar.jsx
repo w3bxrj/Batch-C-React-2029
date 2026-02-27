@@ -1,13 +1,9 @@
-import React, { use, useState } from 'react'
+import React, {  useState } from 'react'
 import {Link} from 'react-router-dom'
 
 function Navbar() {
 
-    const [count , setCount] = useState(0)
-
-    function inc(){
-        setCount(count+1)
-    }
+   
 
 
   return (
@@ -37,9 +33,6 @@ function Navbar() {
         </Link>
       </div>
 
-
-      <button onClick={inc}>Increment</button>
-      <h5>{count}</h5>
 
     </nav>
   )
