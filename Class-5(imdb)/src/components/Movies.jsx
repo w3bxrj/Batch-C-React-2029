@@ -3,9 +3,10 @@ import Banner from "./Banner";
 import MovieCard from "./MovieCard";
 import axios from "axios";
 import Pagination from "./Pagination";
-function Movies() {
+function Movies({watchList , addToWatchList}) {
   const [movies, setMovies] = useState([]);
   const [pageNo , setPageNo] = useState(1)
+ 
 
 
   function decrementPage(){
@@ -38,7 +39,7 @@ function Movies() {
       >
         {movies.map((movie) => {
           return (
-            <MovieCard movieObj={movie} movieTitle={movie.title} posterUrl={movie.poster_path} />
+            <MovieCard watchList={watchList} movieObj={movie} movieTitle={movie.title} posterUrl={movie.poster_path} addToWatchList={addToWatchList} />
           );
         })}
       </div>

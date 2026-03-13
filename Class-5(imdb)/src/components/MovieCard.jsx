@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 
-function MovieCard({ movieObj, movieTitle, posterUrl }) {
-  const [watchList , setWatchList] = useState([])
+function MovieCard({ movieObj, movieTitle, posterUrl, watchList , addToWatchList }) {
+ 
 
-  function addToWatchList(movieObj) {
-      watchList.push(movieObj)
-      console.log(watchList)
-  }
-
-  
+  // Maintain the watchlist so that one movie gets added only once
 
   return (
     <div
