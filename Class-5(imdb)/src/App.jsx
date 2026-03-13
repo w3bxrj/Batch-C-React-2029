@@ -11,7 +11,7 @@ function App() {
 
   function addToWatchList(movieObj) {
     watchList.push(movieObj);
-    console.log(watchList);
+    setWatchList(watchList);
     localStorage.setItem("movies", JSON.stringify(watchList));
   }
 
