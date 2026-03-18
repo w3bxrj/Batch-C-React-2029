@@ -1,13 +1,13 @@
-import React from 'react'
-
-
-
+import React, { useContext } from "react";
+import { ParkContext } from "./ParkContext";
 
 function Child2() {
- 
+  const { waterSlide, ticketforWaterSlide } = useContext(ParkContext);
   return (
-    <div className='children'>Child2  </div>
-  )
+    <div className="children">
+      Child2 {waterSlide} {ticketforWaterSlide()}
+    </div>
+  );
 }
 
-export default Child2
+export default Child2;

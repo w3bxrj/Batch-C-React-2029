@@ -1,13 +1,10 @@
-import React, { useContext } from 'react'
-
-
-
+import React, { useContext } from "react";
+import { ParkContext } from "./ParkContext";
 
 function Child1() {
- 
-  return (
-    <div className='children'>Child1  </div>
-  )
+  const { rollerCoaster, ticketForRollerCoaster } = useContext(ParkContext); // parkInfo
+
+  return <div className="children"> Child1 {rollerCoaster}  {ticketForRollerCoaster()} </div>;
 }
 
-export default Child1
+export default Child1;
