@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React, { useState , useContext } from "react";
+import { MovieContext } from "../MovieContext";
 
-function MovieCard({ movieObj, movieTitle, posterUrl, watchList , addToWatchList }) {
+function MovieCard({ movieObj, movieTitle, posterUrl }) {
+
+ const {addToWatchList} =  useContext(MovieContext)
  
 
   // Maintain the watchlist so that one movie gets added only once
